@@ -7,6 +7,9 @@
     "magic-snowflakes": "^1.0.0"
   },
   "devDependencies": {},
+  "scripts": {
+    "build": "cp node_modules/magic-snowflakes/snowflakes.js js/vendor.js"
+  },
   "author": "",
   "license": "ISC"
 }
