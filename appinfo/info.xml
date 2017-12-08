@@ -4,7 +4,7 @@
 	<description>Adds beautiful snowflakes overlay to your web UI, in combination with your existing theme.</description>
 	<summary>Adds beautiful snowflakes overlay to your web UI</summary>
 	<name>Xmas</name>
-	<license>AGPL</license>
+	<licence>AGPL</licence>
 	<author>Tom Needham</author>
 	<version>0.0.1</version>
 	<category>customization</category>
