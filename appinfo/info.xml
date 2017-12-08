@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+	<id>xmas</id>
+	<description>Adds beautiful snowflakes overlay to your web UI, in combination with your existing theme.</description>
+	<summary>Adds beautiful snowflakes overlay to your web UI</summary>
+	<name>Xmas</name>
+	<license>AGPL</license>
+	<author>Tom Needham</author>
+	<version>0.0.1</version>
+	<category>customization</category>
+	<dependencies>
+		<owncloud min-version="10.0" max-version="10.0"/>
+	</dependencies>
+</info>
