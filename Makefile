@@ -10,6 +10,7 @@ endif
 app_name=xmas
 project_directory=$(CURDIR)/../$(app_name)
 build_tools_directory=$(CURDIR)/build/tools
+appstore_package_name=$(CURDIR)/build/dist/$(app_name)
 npm=$(shell which npm 2> /dev/null)
 
 occ=$(CURDIR)/../../occ
