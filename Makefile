@@ -13,6 +13,17 @@ build_tools_directory=$(CURDIR)/build/tools
 npm=$(shell which npm 2> /dev/null)
 
 occ=$(CURDIR)/../../occ
+private_key=$(HOME)/.owncloud/certificates/$(app_name).key
+certificate=$(HOME)/.owncloud/certificates/$(app_name).crt
+sign=php -f $(occ) integrity:sign-app --privateKey="$(private_key)" --certificate="$(certificate)"
+sign_skip_msg="Skipping signing, either no key and certificate found in $(private_key) and $(certificate) or occ can not be found at $(occ)"
+ifneq (,$(wildcard $(private_key)))
+ifneq (,$(wildcard $(certificate)))
+ifneq (,$(wildcard $(occ)))
+	CAN_SIGN=true
+endif
+endif
+endif
 
 app_doc_files=README.md
 app_src_dirs=js appinfo
@@ -68,7 +79,12 @@ $(dist_dir)/$(app_name):  $(js_deps)  js/$(app_name).bundle.js
 
 .PHONY: dist
 dist: clean $(dist_dir)/$(app_name)
-	tar -czf $(CURDIR)/build/dist/$(app_name).tar.gz -C $(CURDIR)/build/dist/ $(app_name)
+ifdef CAN_SIGN
+	$(sign) --path="$(appstore_package_name)"
+else
+	@echo $(sign_skip_msg)
+endif
+	tar -czf $(appstore_package_name).tar.gz -C $(appstore_package_name)/../ $(app_name)
 
 .PHONY: clean-dist
 clean-dist:
