@@ -27,7 +27,7 @@ endif
 endif
 
 app_doc_files=README.md
-app_src_dirs=js appinfo
+app_src_dirs=js appinfo lib css
 app_all_src=$(app_src_dirs) $(app_doc_files)
 build_dir=build
 dist_dir=$(build_dir)/dist
