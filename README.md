@@ -1,10 +1,10 @@
-# ownCloud Xmas
+# :christmas_tree: ownCloud Xmas
 Add a christmas sprinkle to your ownCloud installations
 
-## Features
- - Snowflakes!
+## :battery: Features
+ - Snowflakes! :snowflake::snowflake::snowflake:
  
-## Usage
+## :wrench: Usage
 1. Install and enable the app. This gives you snowflakes everywhere by default
 2. You can selectively disable snowflakes:
 
@@ -13,10 +13,10 @@ Add a christmas sprinkle to your ownCloud installations
  - `occ config:app:set xmas showOnPublicShare --value=false` Disables snow flakes on the public share page
 3. Enjoy!
  
-## Roadmap / Ideas
- - Folder icons should be presents
- - Configurable appear / disappear snowflakes timers
+## :bulb: Roadmap / Ideas
+ - Folder icons should be presents :gift:
+ - Configurable appear / disappear snowflakes timers :alarm_clock:
  
- ## Get Involved!
+ ## :rocket: Get Involved!
  Why not take one of the ideas above and submit a pull request to the repository with your fix?
  
