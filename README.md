@@ -1,6 +1,7 @@
 # :christmas_tree: ownCloud Xmas
 Add a christmas sprinkle to your ownCloud installations
 
+Latest release: 0.0.4. [Changelog](https://github.com/tomneedham/oc_xmas/blob/master/CHANGELOG.md).
 ## :battery: Features
  - Snowflakes! :snowflake::snowflake::snowflake:
  
