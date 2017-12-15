@@ -16,7 +16,8 @@ Add a christmas sprinkle to your ownCloud installations
 ## :bulb: Roadmap / Ideas
  - Folder icons should be presents :gift: [see issue #8](https://github.com/tomneedham/oc_xmas/issues/8)
  - Configurable appear / disappear snowflakes timers :alarm_clock: [see issue #9](https://github.com/tomneedham/oc_xmas/issues/9)
- 
+ - UI for configuring xmas app features :nail_care: [see issue #10](https://github.com/tomneedham/oc_xmas/issues/10)
+  
  ## :rocket: Get Involved!
  Why not take one of the ideas above and submit a pull request to the repository with your fix?
  
