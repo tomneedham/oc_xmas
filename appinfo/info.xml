@@ -6,7 +6,7 @@
 	<name>Xmas</name>
 	<licence>AGPL</licence>
 	<author>Tom Needham</author>
-	<version>0.0.3</version>
+	<version>0.0.4</version>
 	<category>customization</category>
 	<screenshot>https://raw.githubusercontent.com/tomneedham/oc_xmas/master/screenshot.jpg</screenshot>
 	<dependencies>
