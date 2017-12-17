@@ -59,7 +59,7 @@ class SnowLoader {
 	 * Make it snow!
 	 */
 	protected function goSnow() {
-		Util::addScript('xmas', 'vendor');
+		Util::addScript('xmas', '../node_modules/magic-snowflakes/dist/snowflakes.min.js');
 		Util::addScript('xmas', 'snowflakes');
 		Util::addStyle('xmas', 'style');
 	}
