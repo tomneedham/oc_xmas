@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "magic-snowflakes": "^1.0.0"
+    "magic-snowflakes": "2.1.0"
   },
   "devDependencies": {},
-  "scripts": {
-    "build": "cp node_modules/magic-snowflakes/snowflakes.js js/vendor.js"
-  },
   "author": "",
+  "scripts": {
+    "build": "cp node_modules/magic-snowflakes/dist/snowflakes.min.js js/vendor.js"
+  },
   "license": "ISC"
 }

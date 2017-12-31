@@ -59,9 +59,10 @@ class SnowLoader {
 	 * Make it snow!
 	 */
 	protected function goSnow() {
+		// Main snowflake engine
 		Util::addScript('xmas', 'vendor');
+		// Our implementation
 		Util::addScript('xmas', 'snowflakes');
-		Util::addStyle('xmas', 'style');
 	}
 
 	/**
